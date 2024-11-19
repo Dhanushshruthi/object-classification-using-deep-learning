@@ -60,4 +60,18 @@ Optimizers demonstrated varying levels of efficiency depending on the model arch
 
 Confusion matrices provided insights into false positives, false negatives, and overall classification accuracy.
 
+**Requirements**
+```bash
+import os
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from tensorflow.keras import layers, models
+import pandas as pd
+import time
+```
+
 Graphical representations of accuracy and loss helped in diagnosing model overfitting or underfitting.
